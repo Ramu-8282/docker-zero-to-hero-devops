@@ -1,2 +1,1 @@
-# docker-zero-to-hero-devops
-Here i have written each and every content that is related to everything about devops.
+Hands-on Docker learning repository covering container fundamentals, Dockerfiles, CMD vs ENTRYPOINT, volumes, networking, Compose, multi-stage builds, image optimization, and containerized applications.
