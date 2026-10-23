@@ -1,0 +1,14 @@
+services:
+
+  web:
+    build: .
+    container_name: devops-web
+    ports:
+      - "8083:80"
+
+  app:
+    image: alpine:latest
+    container_name: devops-app
+    command: ["sh", "-c", "while true; do sleep 3600; done"]
+
+

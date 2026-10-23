@@ -1,0 +1,24 @@
+# Dockerfile
+
+A Dockerfile contains instructions used to build a Docker image.
+
+## Example
+
+```dockerfile
+FROM nginx:latest
+
+COPY index.html /usr/share/nginx/html/index.html
+
+EXPOSE 80
+
+IMPORTANT NOTE : 
+
+Instructions Used
+FROM
+Defines the base image.
+COPY
+Copies files from the Docker build context into the image.
+EXPOSE
+Documents the port the application is intended to use.
+EXPOSE does not publish the port to the host.
+
